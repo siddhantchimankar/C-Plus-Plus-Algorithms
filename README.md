@@ -85,7 +85,7 @@ Common prefixes:
 - If you find any algorithm or document without tests, please feel free to create a pull request or issue describing suggested changes.
 
 ### Pull Requests
-- Checkout our [pull request template](https://github.com/TheAlgorithms/C-Plus-Plus-Algorithms/blob/master/.github/pull_request_template.md)
+- Checkout our [pull request template](https://github.com/osDFS/C-Plus-Plus-Algorithms/blob/master/.github/pull_request_template.md)
 
 #### cpplint
 To see if [__cpplint__](https://github.com/cpplint/cpplint) is already installed, do:
