@@ -20,3 +20,56 @@ We are very happy that you consider implementing algorithms and data structures 
 
 **New implementation** New implementation are welcome!
 **Improving comments** and **adding tests** to existing algorithms are much appreciated.
+
+### Making Changes
+
+#### Code
+- Please use the directory structure of the repository.
+- File extension for code should be *.h *.cpp.
+- Don't use **bits/stdc++.h** because this is quite Linux specific and slows down the compilation process.
+- Avoid using **struct** and instead use the **class** keyword.
+- You can suggest reasonable changes to existing algorithms.
+- Strictly use snake_case (underscore_separated) in filenames.
+- If you have added or modified code, please make sure the code compiles before submitting.
+- Our automated testing runs [__cpplint__](https://github.com/cpplint/cpplint) on all pull requests so please be sure that your code passes before submitting.
+- **Be consistent in use of these guidelines.**
+
+#### New File Name guidelines
+- Use lowercase words with ``"_"`` as separator
+- For instance 
+```
+MyNewCppClass.CPP       is incorrect
+my_new_cpp_class.cpp    is correct format
+```
+- It will be used to dynamically create a directory of files and implementation.
+- File name validation will run on docker to ensure the validity.
+
+#### New Directory guidelines 
+- We recommend adding files to existing directories as much as possible.
+- Use lowercase words with ``"_"`` as separator ( no spaces or ```"-"``` allowed )
+- For instance
+```
+SomeNew Fancy-Category          is incorrect
+some_new_fancy_category         is correct
+```
+- Filepaths will be used to dynamically create a directory of our algorithms.
+- Filepath validation will run on GitHub Actions to ensure compliance.
+
+#### Commit Guidelines
+- It is recommended to keep your changes grouped logically within individual commits. Maintainers find it easier to understand changes that are logically spilt across multiple commits.  Try to modify just one or two files in the same directory.  Pull requests that span multiple directories are often rejected.
+```
+git add file_xyz.cpp
+git commit -m "your message"
+```
+Examples of commit messages with semantic prefixes:
+```
+fix: xyz algorithm bug
+feat: add xyx algorithm, class xyz
+test: add test for xyz algorithm
+docs: add comments and explanation to xyz algorithm
+```
+Common prefixes:
+- fix: A bug fix
+- feat: A new feature
+- docs: Documentation changes
+- test: Correct existing tests or add new ones
