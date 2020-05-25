@@ -15,7 +15,7 @@ Welcome to [osDFS/C-Plus-Plus-Algorithms](https://github.com/osDFS/C-Plus-Plus-A
 We are very happy that you consider implementing algorithms and data structures for others! This repository is referred to and used by learners from around the globe. Being one of our contributors, you agree and confirm that:
 - You did your own work.
     - No plagiarism allowed.  Any plagiarized work will not be merged.
-- Your work will be distributed under [MIT License](License) once your pull request has been merged.
+- Your work will be distributed under [MIT License](LICENSE) once your pull request has been merged.
 - You submitted work fulfils or mostly fulfils our styles and standards.
 
 **New implementation** New implementation are welcome!
